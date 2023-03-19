@@ -14,3 +14,49 @@ body {
     border: 12px solid #000;
     position: relative;
 }
+
+.eye-left {
+    position: absolute;
+    top: 45%;
+    left: 10px;
+    width: 115px;
+    height: 58px;
+    background-color: #000;
+    border-radius: 0 0 115px 115px;
+    overflow: hidden;
+    transform: rotate(30deg);
+}
+
+.left-ball {
+    position: absolute;
+    top: -50%;
+    left: 32%;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border: 12px solid #fff;
+    border-radius: 50%;
+}
+
+.eye-right {
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    width: 115px;
+    height: 58px;
+    background-color: #000;
+    border-radius: 0 0 115px 115px;
+    overflow: hidden;
+    transform: rotate(-30deg);
+}
+
+.right-ball {
+    position: absolute;
+    top: -50%;
+    right: 32%;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border: 12px solid #fff;
+    border-radius: 50%;
+}
